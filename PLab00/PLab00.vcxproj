@@ -127,7 +127,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="camara.cpp" />
+    <ClCompile Include="cerdo.cpp" />
+    <ClCompile Include="control.cpp" />
+    <ClCompile Include="escenario.cpp" />
+    <ClCompile Include="obstaculo.cpp" />
+    <ClCompile Include="pajaro.cpp" />
+    <ClCompile Include="puntuacion.cpp" />
     <ClCompile Include="Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camara.h" />
+    <ClInclude Include="cerdo.h" />
+    <ClInclude Include="control.h" />
+    <ClInclude Include="escenario.h" />
+    <ClInclude Include="obstaculo.h" />
+    <ClInclude Include="pajaro.h" />
+    <ClInclude Include="puntuacion.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
