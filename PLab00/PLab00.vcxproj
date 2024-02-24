@@ -127,23 +127,45 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BarraEnemy.cpp" />
+    <ClCompile Include="BarraObjetivo.cpp" />
     <ClCompile Include="camara.cpp" />
     <ClCompile Include="cerdo.cpp" />
     <ClCompile Include="control.cpp" />
     <ClCompile Include="escenario.cpp" />
+    <ClCompile Include="flecha.cpp" />
+    <ClCompile Include="MenuInicio.cpp" />
+    <ClCompile Include="moneda.cpp" />
+    <ClCompile Include="NivelJuego.cpp" />
+    <ClCompile Include="notificador.cpp" />
     <ClCompile Include="obstaculo.cpp" />
     <ClCompile Include="pajaro.cpp" />
+    <ClCompile Include="PontenciadorFlecha.cpp" />
+    <ClCompile Include="proyectil.cpp" />
     <ClCompile Include="puntuacion.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="tienda.cpp" />
+    <ClCompile Include="tnt.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BarraEnemy.h" />
+    <ClInclude Include="BarraObjetivo.h" />
     <ClInclude Include="camara.h" />
     <ClInclude Include="cerdo.h" />
     <ClInclude Include="control.h" />
     <ClInclude Include="escenario.h" />
+    <ClInclude Include="flecha.h" />
+    <ClInclude Include="MenuInicio.h" />
+    <ClInclude Include="moneda.h" />
+    <ClInclude Include="NivelJuego.h" />
+    <ClInclude Include="notificador.h" />
     <ClInclude Include="obstaculo.h" />
     <ClInclude Include="pajaro.h" />
+    <ClInclude Include="PontenciadorFlecha.h" />
+    <ClInclude Include="proyectil.h" />
     <ClInclude Include="puntuacion.h" />
+    <ClInclude Include="tienda.h" />
+    <ClInclude Include="tnt.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
